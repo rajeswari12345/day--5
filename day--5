@@ -1,0 +1,5 @@
+ Use  Random function (RANDOM) to get single digit
+                  $echo $(($RANDOM % 10 ))
+        
+2   use random to get dice number between 1 to 6
+          $((( RANDOM % 6) +1))
