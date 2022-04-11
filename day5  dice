@@ -1,0 +1,6 @@
+add two roandom dice number and print the  result
+          #!/bin/bash
+              dice1=$((RANDOM)%6))
+              dice2=$((RANDOM%6))
+              sum=$((dice1+dice2))
+             Echo=$sum
